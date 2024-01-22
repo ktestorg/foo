@@ -1,7 +1,7 @@
 {
   description = "A very basic flake";
 
-  # the outputs
+  # the outputs...
   outputs = { self, nixpkgs }: {
 
     packages.x86_64-linux.main = nixpkgs.legacyPackages.x86_64-linux.nodejs;
